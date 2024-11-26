@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.item1{
+    background-image: url(../../public/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* z-index: -3; */
+    width: 100%;
+    height: 120vh;
+}
+.item2{
+    background-image: url(../../public/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* z-index: -3; */
+    width: 100%;
+    height: 120vh;
+}
+.item3{
+    background-image: url(../../public/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* z-index: -3; */
+    width: 100%;
+    height: 120vh;
+}
+.navHead{
+    z-index: 4;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+#arrow{
+    color: white;
+    border: 2px solid #3d2113;
+    background-color: #190e08;
+    padding: 0 8px;
+    border-radius: 15px;
+    font-size: 25px;
+    scroll-behavior: smooth;
+    position: fixed;
+    z-index: 4;
+    margin-bottom: 20px;
+    bottom: 3%;
+    right: 5%;
+    cursor: pointer;
+}
+#arrow:hover{
+    cursor: pointer;
+    padding-bottom: 2px;
+    background-color: #f6f4ee;
+    color: #190e08;
+    /* animation: ease; */
+}
+.toggle{
+    font-size: larger;
+    color: rgba(186, 3, 3, 0.589);
+    margin-left: 60px;
+}
+#navBar{
+    /* background-color: #000000; */
+    margin-top: -100px;
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* transition: background-color 0.3s ease; */
+}
+#navBar.scrolled{
+     background-color: rgba(0, 0, 0, 0.5);
+     top: 10;
+}

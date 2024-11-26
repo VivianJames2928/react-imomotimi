@@ -1,0 +1,42 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+header{
+    background-color: #272621;
+}
+.item1{
+    background-image: url(/assets/img/bgimg.jpg), 
+    linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.55));
+    background-blend-mode: luminosity;
+}
+.item2{
+    background-image: url(/assets/img/2.jpg),
+    linear-gradient( rgba(0,0,0,0.70), rgba(0,0,0,0.55));
+    background-blend-mode: luminosity;
+}
+.item3{
+    background-image: url(/assets/img/3.jpg),
+    linear-gradient( rgba(0,0,0,0.70), rgba(0,0,0,0.55));
+    background-blend-mode: luminosity;
+}
+#countdown{
+    background-color: #272621;
+    color: #ffffff;
+}
+.countdownDiv{
+    background-color: #272621;
+}
+.mt-14{
+    color: #ffffff;
+}
+
+input, textarea{
+    background-color: transparent !important;
+}
+.moreInfo{
+    background-color: #272621;
+}
+footer{
+    background-color: #272621;
+}

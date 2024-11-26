@@ -1,0 +1,248 @@
+    <!-- <div class="w-screen h-screen bg-green-500">
+    </div> -->
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ijaw Festival</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/all.css" />
+    <link id="themeStyle" rel="stylesheet" href="/assets/css/light.css">
+    <link rel="stylesheet" href="resources/OwlCarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="resources/OwlCarousel/assets/owl.theme.default.min.css" >
+
+  </head>
+  <body>   
+     <div id="navBar" class="sticky-top flex justify-between items-center py-2"> 
+        <img src="./assets/img/logo.png" alt="logo"class="w-[70px] lg:flex" />
+        <nav class="hidden md:block">
+          <ul class="list-none text-white inline-flex">
+           <a href="#intro"><li class=" hover:underline decoration-1 mx-3">Intro</li></a>
+            <a href="#countdown"><li class="hover:underline decoration-1 mx-3">Countdown</li></a>
+            <a href="#notes"><li class="hover:underline decoration-1 mx-3">Notes</li></a>
+            <a href="#location"><li class="hover:underline decoration-1 mx-3">Location</li></a>
+            <a href="#moreInfo"><li class="hover:underline decoration-1 mx-3">Contact</li></a>
+          </ul>
+        </nav>
+        <div class="toggleSwitch">
+          <button class="toggle" onclick="toggleMode()"><i class="fa-solid fa-toggle-on toggleon" id="toggle"></i></button>
+        </div>
+
+        <button onclick="toggleSwitch"></button>
+        
+        <div class="lg:hidden">
+        <i class="fa-solid fa-bars text-red-100 text-3xl mb-4"></i>
+        </div>
+        <button class="hidden lg:flex bg-red-700 py-2 px-8 text-white rounded text-base ">
+          <i class="fa-solid fa-phone-volume py-1 mr-2"></i>Call Us
+        </button>
+      </div>
+
+    <!-- Header Section -->
+    <header>
+    <div class="owl-carousel">
+      <div class="item1"></div>
+      <div class="item2"></div>
+      <div class="item3"></div>
+    </div>
+    
+    <div class="navHead">
+      
+      <div class="mt-14">
+        <p class="text-center mt-28 text-[#fdac2b] font-mono italic text-base pt-12"  >imomotimi foundation presents</p>
+        <h1 class="text-white font-extrabold font-serif text-3xl text-center">Imomotimi Ijaw <br />Dance Contest 2024</h1>
+        <div class="text-center">
+        <button class="bg-red-700 py-2 px-8  text-white rounded text-base">
+          Download Entry Form <i class="fa-solid download fa-download"></i>
+        </button>
+        </div>
+        <p class="text-white text-center md:font-medium font-light pt-5">
+          All duly filled out forms and the entry fees should be brought along
+          to the audition.
+        </p>
+      </div>
+      <div class="flex  justify-center pt-20  text-white motion-safe:animate-bounce md:h-3 md:mt-1">
+      <i class="fa-solid fa-computer-mouse"></i>
+      </div>
+       <img id="topsmoke"
+        class="w-full md:mt-14 mt-6 md:pt-40 hidden md:block"
+        src="./assets/img/shape-top-grey-80.png"
+        alt="smokes"
+      />
+      </div>
+    </header>
+        
+     
+
+    <!-- Countdown Section -->
+    <section id="countdown">
+      <div class="countdownDiv bg-[#f6f4ee] pt-[20px] w-auto h-80 text-center md:font-extrabold">
+          <div class="font-sans text-black font-semibold md:text-3xl text-2xl text-center pt-8">
+            <p class="mt-14">Countdown to Audition</p>
+          </div>
+          <div class="flex justify-center text-center pt-5">
+            <div class="flex-col items-center">
+              <span class="md:text-5xl text-3xl font-medium">29</span>
+              <hr/>
+              <span class="font-normal">Days</span>
+            </div>
+            <div class="m-5 md:text-3xl text-2xl">:</div>
+            <div class="count">
+              <span class="md:text-5xl text-3xl font-medium">02</span>
+              <hr/>
+              <span class="font-normal">Hours</span>
+            </div>
+            <div class="m-5 md:text-3xl text-2xl">:</div>
+            <div class="count">
+              <span class="md:text-5xl text-3xl font-medium">14</span>
+              <hr/>
+              <span class="font-normal">Minutes</span>
+          </div>
+          <div class="m-5 md:text-3xl text-2xl">:</div>
+          <div class="count">
+            <span class="md:text-5xl text-3xl font-medium">12</span>
+            <hr/>
+            <span class="font-normal">Seconds</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Note Section -->
+    <section class="note" id="notes">
+      <img id="bottomsmoke"
+        class="text hidden md:block"
+        src="./assets/img/shape-bottom-grey-80.png"
+        alt="shadow"
+      />
+      <div class="md:flex py-11 md:h-80 md:items-center block h-auto">
+        <h1 class="font-bold text-3xl pr-14 md:ml-32 ml-8">Important things to<br/>note...</h1>
+        <div class="md:flex mb-32 block">
+          <div class="md:ml-48 ml-8 pt-4 mt-10">
+            <ul class="list-none ">
+              <div class="text-red-600 text-3xl">
+              <i class="fa-solid fa-money-bill-wave" ></i></div>
+              <br />
+              <li class="font-bold text-xl">Pricing</li>
+              <li class="text-[#6F665F]">Audition forms are available for</li>
+              <li class="text-[#6F665F]">#1,000 for single contestants and</li>
+              <li class="text-[#6F665F]">#1,500 for a group of five</li>
+            </ul>
+          </div>
+          <div class="md:ml-12 ml-8 pt-4 mt-10">
+            <ul class="list-none">
+              <div class="text-red-600 text-3xl">
+              <i class="fa-solid fa-trophy"></i></div>
+              <br />
+              <li class="font-bold text-xl">Prizes</li>
+              <li class="text-[#6F665F]"><strong>1st Prize: #</strong>2,000,000</li>
+              <li class="text-[#6F665F]"><strong>2nd Prize: #</strong>1,000,000</li>
+              <li class="text-[#6F665F]"><strong>3rd Prize:#</strong>500,000</li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15853.520578161508!2d3.2885465!3d6.5995895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1727745734799!5m2!1sen!2sng"
+        width="100%"
+        height="400px"
+        style="border: 0"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- Input Information -->
+    <section class="moreInfo md:flex h-auto m-auto bg-[#f6f4ee]" id="moreInfo">
+        <div class="pt-16 ml-9 md:mt-[105px] ">
+          <h4 class="text-[#1F0E0S] text-2xl font-serif font-bold pb-3">For More Information:</h4>
+          <p class="inputtext text-[#6F665F] pb-2"><strong>Hotlines:</strong> 07035973706 & 08108112759</p>
+          <p class="inputtext text-[#6F665F] pb-2"><strong>Email:</strong>info@ijawdancecontest.ng</p>
+          <p class="inputtext text-[#6F665F]">
+            <strong>Audition Location:</strong>Nitro Studio, Tamara Hall,<br>
+            Otiotio Road, Yenagoa, Bayelsa State.
+          </p>
+        </div>
+
+        <div class="md:ml-24 ml-9 font-semibold md:mt-16 ">
+          <div class="md:flex mt-6 block">
+            <div class="pb-6"><i class="fa-solid fa-user text-[#6F665F]"></i></i>
+            <input type="text" class="outline-none border-none bg-[#f6f4ee]" placeholder="Name"><hr class="md:mr-[-170px] mr-8"></div>
+            <div class="md:pl-48 text-[#6F665F] block pb-6">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" class="outline-none border-none bg-[#f6f4ee]" placeholder="Email Address"><hr class="md:mr-[-180px] mr-8">
+            </div> 
+          </div>
+          <div class="md:flex md:mt-3 md:pt-5">
+            <div class="pb-6"><i class="fa-solid fa-phone text-[#6F665F]"></i>
+            <input type="tel" class="outline-none border-none bg-[#f6f4ee]" placeholder="Phone"><hr class="md:mr-[-170px] mr-8"></div>
+            <div class="md:pl-48 text-[#6F665F] block">
+                <i class="fa-solid fa-circle-info"></i>
+                <input type="text" class="outline-none border-none bg-[#f6f4ee]" placeholder="Subject"><hr class="md:mr-[-180px] mr-8">
+            </div> 
+          </div>
+
+          <div class="md:mt-4 md:pt-3 flex md:my-2 pt-4">
+                </i><i class="fa-solid fa-pen text-[#6F665F] pt-1"></i>
+                <textarea name="text" class=" pb-10 pl-1 outline-none border-none bg-[#f6f4ee]" cols="50" rows="1" placeholder="How can we help you? Feel free to get in Touch!"></textarea>
+            </div><hr class="md:mr-[-180px] mr-8">
+
+          <div class="pt-6 md:mb-10"><button class=" bg-red-700 py-2 px-8  text-white rounded text-base mb-4">Get In Touch</button></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#190e08] w-auto h-72" >
+      <p class="text-white text-center pt-8 pb-5 text-lg">We Are Social</p>
+      <div class="text-center text-white">
+        <button class=" bg-[#190e08] rounded-[50%]  p-3 mx-1 text-[12px] border-[#3d2113] border-2"><i class="fa-brands face fa-facebook-f"></i></button>
+        <button class=" bg-[#190e08] rounded-[50%]  p-3 mx-1 text-[12px] border-[#3d2113] border-2"><i class="fa-brands twitt fa-x-twitter"></i></button>
+        <button class=" bg-[#190e08] rounded-[50%]  p-3 mx-1 text-[12px] border-[#3d2113] border-2"><i class="fa-brands insta fa-instagram"></i></button>
+        <button class=" bg-[#190e08] rounded-[50%]  p-3 mx-1 text-[12px] border-[#3d2113] border-2"><i class="fa-brands yout fa-youtube"></i></button>
+      </div>
+      <div class="mx-3 mt-10 border-0 h-1">
+      <hr class="border-[#3d2113]"/>
+      </div>
+      <p class="text-white text-center">© 2024 Imomotimi Foundation. All Rights Reserved</p>
+
+      <!-- Scroll To Top Button -->
+      <button id="arrow" class="ml-[550px] md:ml-[1200px] animate-bounce"><i class="fa-solid fa-arrow-up"></i></button>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+    <script src="resources/jquery-3.7.1.min.js"></script>
+    <script src="resources/OwlCarousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        item:1,
+        loop:true,
+        nav:false,
+        dots:false,
+        autoplay:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+
+        responsive:{
+          0: {
+            items:1
+          },
+          600:{
+            items:1
+          },
+          1000:{
+            items:1
+          }
+        }
+      });
+      });
+    </script>
+  </body>
+</html>
